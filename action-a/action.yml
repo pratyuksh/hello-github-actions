@@ -8,6 +8,12 @@ inputs:
     required: true
     default: "One Piece"
 
+outputs:
+  WHAT_I_WANT:
+    description: "What do I want?"
+    required: true
+    default: "To be the King of Pirates"
+
 runs:
   using: "docker"
   image: "Dockerfile"
