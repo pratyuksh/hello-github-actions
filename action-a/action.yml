@@ -11,7 +11,6 @@ inputs:
 outputs:
   WHAT_I_WANT:
     description: "What do I want?"
-    default: "To be the King of Pirates"
 
 runs:
   using: "docker"
