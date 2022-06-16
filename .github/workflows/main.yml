@@ -9,4 +9,7 @@ jobs:
       - uses: actions/checkout@v1
       - uses: ./action-a
         with:
-          MY_NAME: "Zoro"
+          MY_NAME: "Luffy"
+      - name: set output parameter
+        id: vars
+        run: echo ::set-output name=WHAT_I_WANT::"To be the king of pirates"
